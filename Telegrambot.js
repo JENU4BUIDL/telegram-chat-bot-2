@@ -1,17 +1,3 @@
-{
-  "name": "chart-service",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "playwright": "^1.40.0"
-  }
-}
-
-
 const express = require('express');
 const { chromium } = require('playwright');
 
